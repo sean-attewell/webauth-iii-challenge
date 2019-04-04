@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, NavLink, withRouter } from 'react-router-dom';
 import Login from './Login';
 import Users from './Users';
+import Register from './Register';
 import './Container.less';
 
 // users screen that displays users
@@ -17,6 +18,7 @@ export function Container(props) {
             <nav>
                 <span>
                     <NavLink to='/'>Login</NavLink>
+                    <NavLink to='/register'>Register</NavLink>
                     <NavLink to='/users'>Users</NavLink>
                 </span>
 
@@ -27,12 +29,17 @@ export function Container(props) {
                 <Route
                     path='/'
                     exact
-                    component={Login}
+                    render={(props) => <Login {...props} />}
                 />
                 <Route
                     path='/users'
                     exact
                     component={Users}
+                />
+                <Route
+                    path='/register'
+                    exact
+                    render={(props) => <Register {...props} />}
                 />
             </main>
         </div>
