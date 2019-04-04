@@ -1,7 +1,7 @@
 # Authentication using JSON Web Tokens (JWTs)
 <!-- edit -->
 ## Topics
-
+<!-- edit 2 -->
 - Authentication.
 - Express Middleware.
 - JSON Web Tokens (JWTs).
