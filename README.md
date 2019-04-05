@@ -1,12 +1,12 @@
 # Authentication using JSON Web Tokens (JWTs)
-
+<!-- edit -->
 ## Topics
-
+<!-- edit 2 -->
 - Authentication.
 - Express Middleware.
 - JSON Web Tokens (JWTs).
 - Hashing Passwords.
-
+<!-- edit 3 -->
 ## Description
 
 In this project we'll implement a full authentication workflow (register/login/logout/restrict endpoint) using `Node.js`, `Express`, `SQLite` and `JSON Web Tokens` on the server and a `React` Web Application for the client.
